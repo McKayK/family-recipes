@@ -25,7 +25,9 @@ const Nav = () => {
         <ul>
           <li>Home</li>
           <li>
-            {!loginStatus && <button onClick={changeLoginStatus}>Login</button>}
+            {!loginStatus && (
+              <button onClick={changeLoginStatus}>Login Now</button>
+            )}
           </li>
           <li>
             {loginStatus && <button onClick={changeLoginStatus}>Logout</button>}
