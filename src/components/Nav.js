@@ -30,7 +30,9 @@ const Nav = () => {
             )}
           </li>
           <li>
-            {loginStatus && <button onClick={changeLoginStatus}>Logout</button>}
+            {loginStatus && (
+              <button onClick={changeLoginStatus}>Logout The User</button>
+            )}
           </li>
           <li>
             {!loginStatus && <button onClick={registerUser}>Register</button>}
