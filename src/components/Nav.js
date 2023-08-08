@@ -83,7 +83,7 @@ const Nav = () => {
         <div>
           <h1>MY GROUPS</h1>
           <div>
-            <button onClick={inGroupStatus}>kleinman</button>
+            <button onClick={inGroupStatus}>kleinman family</button>
             <button onClick={inGroupStatus}>disneyland</button>
           </div>
         </div>
